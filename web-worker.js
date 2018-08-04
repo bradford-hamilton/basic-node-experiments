@@ -4,8 +4,8 @@
   outside of the event loop so that would defeat the purpose
 */
 const Worker = require('webworker-threads').Worker;
-
 const express = require('express');
+
 const app = express();
 // const crypto = require('crypto');
 
